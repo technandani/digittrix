@@ -34,9 +34,12 @@ const BlogSection = () => {
   ];
 
   return (
-    <section className=" py-16 bg-gray-200 padding " style={{ paddingTop: "150px" , paddingBottom:'60px'}}>
+    <section
+      className=" py-16 bg-gray-200 padding "
+      style={{ paddingTop: "150px", paddingBottom: "60px" }}
+    >
       <div className="container mx-auto">
-        <div className="flex justify-between pb-3">
+        <div className="flex justify-between pb-3 disnone">
           <div>
             <div className="text-3xl font-semibold text-blue-900">
               Recent Blogs
@@ -46,11 +49,14 @@ const BlogSection = () => {
             </p>
           </div>
           <div>
-          <button className="mt-8 px-6 py-2 w-[120px] text-white bg-blue-900 rounded">
-          View All
-        </button>
+            <button className="mt-8 px-6 py-2 w-[120px] text-white bg-blue-900 rounded">
+              View All
+            </button>
           </div>
         </div>
+          <div className="text-3xl font-semibold text-blue-900 maxNone py-2">
+              Recent Blogs
+            </div>
 
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4">
           {blogs.map((blog) => (
