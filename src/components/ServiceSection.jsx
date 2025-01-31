@@ -5,7 +5,7 @@ const ServiceSection = () => {
   const consultants = [
     {
       id: 1,
-      image: "images/4.png",
+      image: "images/2.png",
       name: "Visa Masters",
       description: "Lorem Ipsum is simply dummy text for printing.",
       price: "$15.00 / 15 min",
@@ -13,7 +13,7 @@ const ServiceSection = () => {
     },
     {
       id: 2,
-      image: "images/5.png",
+      image: "images/3.png",
       name: "Gray Matters",
       description: "Lorem Ipsum is simply dummy text for printing.",
       price: "$15.00 / 15 min",
@@ -21,7 +21,7 @@ const ServiceSection = () => {
     },
     {
       id: 3,
-      image: "images/6.png",
+      image: "images/4.png",
       name: "Eli Stones",
       description: "Lorem Ipsum is simply dummy text for printing.",
       price: "$15.00 / 15 min",
@@ -29,7 +29,7 @@ const ServiceSection = () => {
     },
     {
       id: 4,
-      image: "images/7.png",
+      image: "images/5.png",
       name: "Eli Stones",
       description: "Lorem Ipsum is simply dummy text for printing.",
       price: "$15.00 / 15 min",
@@ -37,7 +37,7 @@ const ServiceSection = () => {
     },
     {
       id: 5,
-      image: "images/8.png",
+      image: "images/6.png",
       name: "Eli Stones",
       description: "Lorem Ipsum is simply dummy text for printing.",
       price: "$15.00 / 15 min",
@@ -45,7 +45,7 @@ const ServiceSection = () => {
     },
     {
       id: 6,
-      image: "images/9.png",
+      image: "images/7.png",
       name: "Eli Stones",
       description: "Lorem Ipsum is simply dummy text for printing.",
       price: "$15.00 / 15 min",
@@ -54,10 +54,10 @@ const ServiceSection = () => {
   ];
 
   return (
-    <section className="flex items-center" style={{ padding: "90px 40px" }}>
-      <div className="grid lg:grid-cols-4 gap-4 items-center justify-center">
-        <div className="text-center lg:col-span-1 md:col-span-1 sm:col-span-1">
-          <h2 className="text-2xl font-semibold text-gray-800">Top Rated Consultants</h2>
+    <section className="lg:flex items-center md:flex-col clip clipno bg-gray-200 padding " style={{ padding: "90px 40px" }}>
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-4 items-center justify-center">
+        <div className="text-center lg:col-span-1 md:col-span-3 sm:col-span-1">
+          <h2 className="text-2xl font-semibold text-blue-900">Top Rated Consultants</h2>
           <p className="text-lg text-gray-700 mb-8">
             Our trusted partner in navigation the immigration journey
           </p>
@@ -65,8 +65,8 @@ const ServiceSection = () => {
             View All
           </button>
         </div>
-        <div className="lg:col-span-3">
-          <div className="grid grid-cols-3 gap-8 m-auto">
+        <div className="lg:col-span-3 md:col-span-3 m-auto">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 m-auto ">
             {consultants.map((consultant) => (
               <SingleCard key={consultant.id} {...consultant} />
             ))}

@@ -8,7 +8,7 @@ const Hero = () => {
           padding: "10px 150px",
           overflow: "hidden",
         }}
-        className="bg-blue-800 h-screen text-white"
+        className="bg-[rgb(0,40,99);] h-screen text-white disnone"
       >
         <nav className="flex items-center justify-between">
           <div className="logo" style={{ height: "100%" }}>
@@ -36,10 +36,10 @@ const Hero = () => {
           >
             <div className="text-lg">Become a Consultant</div>
             <div className="navCon1" style={{ fontSize: 25 }}>
-              <i className="fa-solid fa-comments-dollar" />
+              <i className="fa-regular fa-bell" />
             </div>
             <div className="navCon1" style={{ fontSize: 25 }}>
-              <i className="fa-regular fa-bell" />
+              <i className="fa-solid fa-comments-dollar" />
             </div>
             <div className="navCon1" style={{}}>
               <img src="images/21.png" alt="" style={{ borderRadius: "50%" }} />
@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
         </nav>
         {/* Hero Section */}
-        <div className="flex items-center justify-between">
+        <div className="lg:flex items-center justify-between">
           <div className="flex flex-col">
             <div className="">
               <h1 className="font-medium text-2xl text-left">
@@ -63,7 +63,7 @@ const Hero = () => {
                   className="outline-[none] bg-[transprent] text-gray-800 px-3  "
                   placeholder="Search anything here..."
                 />
-                <div className="m-1 px-2 py-2 w-[120px] text-white bg-blue-900 rounded-xl flex items-center justify-center gap-2">
+                <div className="m-1 px-2 py-2 w-[120px] text-white bg-blue-900 rounded-xl flex items-center justify-center gap-2" style={{cursor:'pointer'}}>
                 <i class="fa-solid fa-magnifying-glass"></i> Search
                 </div>
               </div>
