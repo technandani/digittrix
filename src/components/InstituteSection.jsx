@@ -28,7 +28,7 @@ const InstituteSection = () => {
           <p className="text-lg text-gray-700 mb-8">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, beatae?
           </p>
-          <button className="mt-6 px-6 py-2 w-[120px] text-white bg-blue-900 rounded">
+          <button className="mt-6 px-6 py-2 w-[120px] text-white bg-blue-900 rounded transform hover:scale-110">
             View All
           </button>
         </div>

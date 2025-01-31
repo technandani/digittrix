@@ -44,7 +44,7 @@ const Hero = () => {
             <div className="navCon1" style={{}}>
               <img src="images/21.png" alt="" style={{ borderRadius: "50%" }} />
             </div>
-            <div className="navCon1">$0.00</div>
+            <div className="navCon1">$0.00 <i className="fa-solid fa-angle-down" /></div>
           </div>
         </nav>
         {/* Hero Section */}
@@ -57,13 +57,13 @@ const Hero = () => {
               <h1 className="font-medium text-2xl text-left">
                 Expert Consultation at Your Service
               </h1>
-              <div className="flex justify-between items-center bg-white rounded">
+              <div className="flex justify-between items-center bg-white rounded-xl mt-4">
                 <input
                   type="text"
-                  className="outline-[none] bg-[transprent] text-gray-800  px-2  "
+                  className="outline-[none] bg-[transprent] text-gray-800 px-3  "
                   placeholder="Search anything here..."
                 />
-                <div className="m-1 px-2 py-2 w-[120px] text-white bg-blue-900 rounded flex items-center justify-center gap-2">
+                <div className="m-1 px-2 py-2 w-[120px] text-white bg-blue-900 rounded-xl flex items-center justify-center gap-2">
                 <i class="fa-solid fa-magnifying-glass"></i> Search
                 </div>
               </div>
@@ -72,7 +72,7 @@ const Hero = () => {
                 Institutes in Mohali, Study Buddies, IELTS
               </div>
             </div>
-            <div className="bottomHero">
+            <div className="bottomHero"style={{position:'absolute', bottom:'15px'}}>
               <div className=" flex gap-30" style={{ display: "flex" }}>
                 <div className="flex h-[60px] gap-2 items-center">
                   <div className="text-4xl">

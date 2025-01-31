@@ -54,24 +54,22 @@ const ServiceSection = () => {
   ];
 
   return (
-    <section className="flex items-center " style={{padding:'90px 40px'}}>
+    <section className="flex items-center" style={{ padding: "90px 40px" }}>
       <div className="grid lg:grid-cols-4 gap-4 items-center justify-center">
         <div className="text-center lg:col-span-1 md:col-span-1 sm:col-span-1">
-          <h2 className="text-2xl font-semibold text-gray-800">
-            Top Rated Consultants
-          </h2>
+          <h2 className="text-2xl font-semibold text-gray-800">Top Rated Consultants</h2>
           <p className="text-lg text-gray-700 mb-8">
             Our trusted partner in navigation the immigration journey
           </p>
-          <button className="mt-6 px-6 py-2 w-[120px] text-white bg-blue-900 rounded">
+          <button className="mt-6 px-6 py-2 w-[120px] text-white bg-blue-900 rounded transform hover:scale-110">
             View All
           </button>
         </div>
         <div className="lg:col-span-3">
           <div className="grid grid-cols-3 gap-8 m-auto">
-              {consultants.map((consultant) => (
-                <SingleCard key={consultant.id} {...consultant} />
-              ))}
+            {consultants.map((consultant) => (
+              <SingleCard key={consultant.id} {...consultant} />
+            ))}
           </div>
         </div>
       </div>
