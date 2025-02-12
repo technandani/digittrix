@@ -1,8 +1,7 @@
-# React + Vite
+# 🚀  UI with React & Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 About
+Built with React, Tailwind CSS, and Framer Motion, the interface offers a sleek, responsive, and animated experience. With smooth transitions, intuitive layouts, and optimized performance, the design ensures seamless navigation across all devices.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌍 Live Demo
+🔗 [Demo link](https://digittrix.vercel.app)
